@@ -1,0 +1,10 @@
+applications:
+- name: idp
+  memory: 128M
+  disk: 256M
+  instances: 1
+  health-check-type: port
+  random-route: false
+  buildpack: nodejs_buildpack_1_7_15
+  stack: cflinuxfs3
+  command: node index.js

@@ -1,0 +1,12 @@
+node_modules
+logs
+coverage
+.nyc_output
+.vscode
+*.pem
+*.cer
+manifest.yml
+package*.json
+lintOutput.html
+config
+.env
